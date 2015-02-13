@@ -14,6 +14,30 @@
 		B9B531241A859A9400AB0070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B531231A859A9400AB0070 /* Images.xcassets */; };
 		B9B531271A859A9400AB0070 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9B531251A859A9400AB0070 /* LaunchScreen.xib */; };
 		B9B531331A859A9500AB0070 /* Oaxaca_PushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B531321A859A9500AB0070 /* Oaxaca_PushTests.m */; };
+		B9B5315D1A859F3700AB0070 /* NSDate+RFC1123.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531401A859F3700AB0070 /* NSDate+RFC1123.html */; };
+		B9B5315E1A859F3700AB0070 /* NSString+GTMNSStringHTMLAdditions.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531411A859F3700AB0070 /* NSString+GTMNSStringHTMLAdditions.html */; };
+		B9B5315F1A859F3700AB0070 /* PushNotificationManager.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531431A859F3700AB0070 /* PushNotificationManager.html */; };
+		B9B531601A859F3700AB0070 /* PWNetworkEngine.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531441A859F3700AB0070 /* PWNetworkEngine.html */; };
+		B9B531611A859F3700AB0070 /* PWNetworkOperation.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531451A859F3700AB0070 /* PWNetworkOperation.html */; };
+		B9B531621A859F3700AB0070 /* PWReachability.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531461A859F3700AB0070 /* PWReachability.html */; };
+		B9B531631A859F3700AB0070 /* PWTags.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531471A859F3700AB0070 /* PWTags.html */; };
+		B9B531641A859F3700AB0070 /* PWBeaconAction.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531491A859F3700AB0070 /* PWBeaconAction.html */; };
+		B9B531651A859F3700AB0070 /* PWSupportedOrientations.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B5314A1A859F3700AB0070 /* PWSupportedOrientations.html */; };
+		B9B531661A859F3700AB0070 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = B9B5314C1A859F3700AB0070 /* styles.css */; };
+		B9B531671A859F3700AB0070 /* stylesPrint.css in Resources */ = {isa = PBXBuildFile; fileRef = B9B5314D1A859F3700AB0070 /* stylesPrint.css */; };
+		B9B531681A859F3700AB0070 /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B5314E1A859F3700AB0070 /* hierarchy.html */; };
+		B9B531691A859F3700AB0070 /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B531501A859F3700AB0070 /* button_bar_background.png */; };
+		B9B5316A1A859F3700AB0070 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B531511A859F3700AB0070 /* disclosure.png */; };
+		B9B5316B1A859F3700AB0070 /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B531521A859F3700AB0070 /* disclosure_open.png */; };
+		B9B5316C1A859F3700AB0070 /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B531531A859F3700AB0070 /* library_background.png */; };
+		B9B5316D1A859F3700AB0070 /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B531541A859F3700AB0070 /* title_background.png */; };
+		B9B5316E1A859F3700AB0070 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531551A859F3700AB0070 /* index.html */; };
+		B9B5316F1A859F3700AB0070 /* PushNotificationDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = B9B531571A859F3700AB0070 /* PushNotificationDelegate.html */; };
+		B9B531701A859F3700AB0070 /* Pushwoosh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B531591A859F3700AB0070 /* Pushwoosh.framework */; };
+		B9B531711A859F3700AB0070 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B9B5315A1A859F3700AB0070 /* LICENSE */; };
+		B9B531721A859F3700AB0070 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B9B5315B1A859F3700AB0070 /* README.md */; };
+		B9B531731A859F3700AB0070 /* VERSION.md in Sources */ = {isa = PBXBuildFile; fileRef = B9B5315C1A859F3700AB0070 /* VERSION.md */; };
+		B9B531751A859F7B00AB0070 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B531741A859F7B00AB0070 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +64,30 @@
 		B9B5312C1A859A9400AB0070 /* Oaxaca-PushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oaxaca-PushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B531311A859A9500AB0070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B531321A859A9500AB0070 /* Oaxaca_PushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oaxaca_PushTests.m; sourceTree = "<group>"; };
+		B9B531401A859F3700AB0070 /* NSDate+RFC1123.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = "NSDate+RFC1123.html"; sourceTree = "<group>"; };
+		B9B531411A859F3700AB0070 /* NSString+GTMNSStringHTMLAdditions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = "NSString+GTMNSStringHTMLAdditions.html"; sourceTree = "<group>"; };
+		B9B531431A859F3700AB0070 /* PushNotificationManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PushNotificationManager.html; sourceTree = "<group>"; };
+		B9B531441A859F3700AB0070 /* PWNetworkEngine.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWNetworkEngine.html; sourceTree = "<group>"; };
+		B9B531451A859F3700AB0070 /* PWNetworkOperation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWNetworkOperation.html; sourceTree = "<group>"; };
+		B9B531461A859F3700AB0070 /* PWReachability.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWReachability.html; sourceTree = "<group>"; };
+		B9B531471A859F3700AB0070 /* PWTags.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWTags.html; sourceTree = "<group>"; };
+		B9B531491A859F3700AB0070 /* PWBeaconAction.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWBeaconAction.html; sourceTree = "<group>"; };
+		B9B5314A1A859F3700AB0070 /* PWSupportedOrientations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PWSupportedOrientations.html; sourceTree = "<group>"; };
+		B9B5314C1A859F3700AB0070 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		B9B5314D1A859F3700AB0070 /* stylesPrint.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesPrint.css; sourceTree = "<group>"; };
+		B9B5314E1A859F3700AB0070 /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = hierarchy.html; sourceTree = "<group>"; };
+		B9B531501A859F3700AB0070 /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
+		B9B531511A859F3700AB0070 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		B9B531521A859F3700AB0070 /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
+		B9B531531A859F3700AB0070 /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
+		B9B531541A859F3700AB0070 /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
+		B9B531551A859F3700AB0070 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		B9B531571A859F3700AB0070 /* PushNotificationDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = PushNotificationDelegate.html; sourceTree = "<group>"; };
+		B9B531591A859F3700AB0070 /* Pushwoosh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pushwoosh.framework; sourceTree = "<group>"; };
+		B9B5315A1A859F3700AB0070 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B9B5315B1A859F3700AB0070 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9B5315C1A859F3700AB0070 /* VERSION.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = VERSION.md; sourceTree = "<group>"; };
+		B9B531741A859F7B00AB0070 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B531751A859F7B00AB0070 /* MobileCoreServices.framework in Frameworks */,
+				B9B531701A859F3700AB0070 /* Pushwoosh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +131,7 @@
 		B9B531151A859A9300AB0070 /* Oaxaca-Push */ = {
 			isa = PBXGroup;
 			children = (
+				B9B5313C1A859F2200AB0070 /* Frameworks */,
 				B9B5311A1A859A9300AB0070 /* AppDelegate.h */,
 				B9B5311B1A859A9400AB0070 /* AppDelegate.m */,
 				B9B5311D1A859A9400AB0070 /* ViewController.h */,
@@ -89,6 +140,7 @@
 				B9B531231A859A9400AB0070 /* Images.xcassets */,
 				B9B531251A859A9400AB0070 /* LaunchScreen.xib */,
 				B9B531161A859A9300AB0070 /* Supporting Files */,
+				B9B5313D1A859F3700AB0070 /* pushwoosh-ios-sdk-master */,
 			);
 			path = "Oaxaca-Push";
 			sourceTree = "<group>";
@@ -117,6 +169,108 @@
 				B9B531311A859A9500AB0070 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9B5313C1A859F2200AB0070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B5313D1A859F3700AB0070 /* pushwoosh-ios-sdk-master */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5313E1A859F3700AB0070 /* Documentation */,
+				B9B531581A859F3700AB0070 /* Framework */,
+				B9B5315A1A859F3700AB0070 /* LICENSE */,
+				B9B5315B1A859F3700AB0070 /* README.md */,
+				B9B5315C1A859F3700AB0070 /* VERSION.md */,
+			);
+			path = "pushwoosh-ios-sdk-master";
+			sourceTree = SOURCE_ROOT;
+		};
+		B9B5313E1A859F3700AB0070 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5313F1A859F3700AB0070 /* Categories */,
+				B9B531421A859F3700AB0070 /* Classes */,
+				B9B531481A859F3700AB0070 /* Constants */,
+				B9B5314B1A859F3700AB0070 /* css */,
+				B9B5314E1A859F3700AB0070 /* hierarchy.html */,
+				B9B5314F1A859F3700AB0070 /* img */,
+				B9B531551A859F3700AB0070 /* index.html */,
+				B9B531561A859F3700AB0070 /* Protocols */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		B9B5313F1A859F3700AB0070 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531401A859F3700AB0070 /* NSDate+RFC1123.html */,
+				B9B531411A859F3700AB0070 /* NSString+GTMNSStringHTMLAdditions.html */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B9B531421A859F3700AB0070 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531431A859F3700AB0070 /* PushNotificationManager.html */,
+				B9B531441A859F3700AB0070 /* PWNetworkEngine.html */,
+				B9B531451A859F3700AB0070 /* PWNetworkOperation.html */,
+				B9B531461A859F3700AB0070 /* PWReachability.html */,
+				B9B531471A859F3700AB0070 /* PWTags.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B9B531481A859F3700AB0070 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531491A859F3700AB0070 /* PWBeaconAction.html */,
+				B9B5314A1A859F3700AB0070 /* PWSupportedOrientations.html */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B9B5314B1A859F3700AB0070 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				B9B5314C1A859F3700AB0070 /* styles.css */,
+				B9B5314D1A859F3700AB0070 /* stylesPrint.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		B9B5314F1A859F3700AB0070 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531501A859F3700AB0070 /* button_bar_background.png */,
+				B9B531511A859F3700AB0070 /* disclosure.png */,
+				B9B531521A859F3700AB0070 /* disclosure_open.png */,
+				B9B531531A859F3700AB0070 /* library_background.png */,
+				B9B531541A859F3700AB0070 /* title_background.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		B9B531561A859F3700AB0070 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531571A859F3700AB0070 /* PushNotificationDelegate.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B9B531581A859F3700AB0070 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B9B531591A859F3700AB0070 /* Pushwoosh.framework */,
+				B9B531741A859F7B00AB0070 /* MobileCoreServices.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +353,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B5316E1A859F3700AB0070 /* index.html in Resources */,
+				B9B531601A859F3700AB0070 /* PWNetworkEngine.html in Resources */,
+				B9B5316C1A859F3700AB0070 /* library_background.png in Resources */,
+				B9B531641A859F3700AB0070 /* PWBeaconAction.html in Resources */,
 				B9B531221A859A9400AB0070 /* Main.storyboard in Resources */,
+				B9B531671A859F3700AB0070 /* stylesPrint.css in Resources */,
+				B9B5316F1A859F3700AB0070 /* PushNotificationDelegate.html in Resources */,
+				B9B5316B1A859F3700AB0070 /* disclosure_open.png in Resources */,
+				B9B531651A859F3700AB0070 /* PWSupportedOrientations.html in Resources */,
+				B9B531661A859F3700AB0070 /* styles.css in Resources */,
+				B9B5316A1A859F3700AB0070 /* disclosure.png in Resources */,
+				B9B531631A859F3700AB0070 /* PWTags.html in Resources */,
 				B9B531271A859A9400AB0070 /* LaunchScreen.xib in Resources */,
+				B9B531711A859F3700AB0070 /* LICENSE in Resources */,
+				B9B5315E1A859F3700AB0070 /* NSString+GTMNSStringHTMLAdditions.html in Resources */,
+				B9B531621A859F3700AB0070 /* PWReachability.html in Resources */,
+				B9B531611A859F3700AB0070 /* PWNetworkOperation.html in Resources */,
+				B9B531691A859F3700AB0070 /* button_bar_background.png in Resources */,
+				B9B5315D1A859F3700AB0070 /* NSDate+RFC1123.html in Resources */,
+				B9B5316D1A859F3700AB0070 /* title_background.png in Resources */,
 				B9B531241A859A9400AB0070 /* Images.xcassets in Resources */,
+				B9B531681A859F3700AB0070 /* hierarchy.html in Resources */,
+				B9B5315F1A859F3700AB0070 /* PushNotificationManager.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +395,8 @@
 			files = (
 				B9B5311F1A859A9400AB0070 /* ViewController.m in Sources */,
 				B9B5311C1A859A9400AB0070 /* AppDelegate.m in Sources */,
+				B9B531731A859F3700AB0070 /* VERSION.md in Sources */,
+				B9B531721A859F3700AB0070 /* README.md in Sources */,
 				B9B531191A859A9300AB0070 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +521,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pushwoosh-ios-sdk-master/Framework",
+				);
 				INFOPLIST_FILE = "Oaxaca-Push/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ddb22cfb-19e4-4b8f-8319-273ec37c8e87";
 			};
 			name = Debug;
 		};
@@ -355,9 +537,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pushwoosh-ios-sdk-master/Framework",
+				);
 				INFOPLIST_FILE = "Oaxaca-Push/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ddb22cfb-19e4-4b8f-8319-273ec37c8e87";
 			};
 			name = Release;
 		};
@@ -414,6 +602,7 @@
 				B9B531381A859A9500AB0070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9B531391A859A9500AB0070 /* Build configuration list for PBXNativeTarget "Oaxaca-PushTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +611,7 @@
 				B9B5313B1A859A9500AB0070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
